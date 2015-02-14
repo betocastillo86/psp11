@@ -16,7 +16,7 @@ public class Prueba1_PSP11 {
     public static ResumenPrograma Prueba1()
     {
         ResumenPrograma resumen = new ResumenPrograma();
-        
+        resumen.setNombre("Prueba 1");
         ResumenArchivo archivo1 = new ResumenArchivo();
         archivo1.setNombreArchivo("each_char");
         archivo1.setNumeroLineas(18);
@@ -103,6 +103,7 @@ public class Prueba1_PSP11 {
     public static ResumenPrograma Prueba2()
     {
         ResumenPrograma resumen = new ResumenPrograma();
+        resumen.setNombre("Prueba 2");
         
         ResumenArchivo archivo1 = new ResumenArchivo();
         archivo1.setNombreArchivo("Preface");
