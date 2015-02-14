@@ -20,23 +20,28 @@ public class RangoTamano {
         this.desviacion = desviacion;
     }
 
-    public Double getMuyGrande() {
+    public Double getMuyGrande() 
+    {
         return Math.exp(promedio + (2 * desviacion))  ;
     }
 
-    public Double getGrande() {
+    public Double getGrande() 
+    {
         return Math.exp(promedio + desviacion);
     }
 
-    public Double getMedio() {
+    public Double getMedio() 
+    {
         return Math.exp(promedio);
     }
 
-    public Double getPequeno() {
+    public Double getPequeno() 
+    {
         return Math.exp(promedio - desviacion);
     }
 
-    public Double getMuyPequeno() {
+    public Double getMuyPequeno() 
+    {
         return Math.exp(promedio - (2 * desviacion));
     }
 
